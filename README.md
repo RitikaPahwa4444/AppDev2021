@@ -7,10 +7,14 @@ provide you with two open-source coding projects during the summer. The program 
 You are invited to redesign the project by adding the basic required features and as many additional features as you can to these
 existing projects according to your fit. Keeping in mind the theme of Innerve this year i.e. "Y2K". 
 
-# Project 
+#Project
 --------------------------------
+The project consists of a brand folder which has basic template colours and logo to refer from and further creativity is welcome! 
 
 #Basic features to be added :
+--------------------------------
+Add the following pages : 
+	             Login page, SignUp( as nanny and parent) page, Requirements (nanny and parent) page, customized profile, live chat functionality, Booking page.
 
 Additional Features:
 --------------------
@@ -28,7 +32,7 @@ What we expect :
 A doc file listing down the changes you made.
 Only one commit of final solution per person is allowed.
 
-Time limit: 10 days []
+Time limit: 10 days [3rd November 2021 - 12th Novermber 2021 (11:59 pm)]
 -----------
 
 Where to send solution:
