@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<group>
+    <item android:id="@+id/Profile"
+        android:icon="@drawable/person"
+        android:title="Profile"></item>
+    <item android:id="@+id/Posts_or_Bookings"
+        android:icon="@drawable/post"
+        android:title="Posts/Bookings"></item>
+</group>
+
+
+
+    <item
+        android:title="Feedback">
+        <menu>
+            <item android:id="@+id/Rate_Us"
+                android:icon="@drawable/rate"
+                android:title="Rate Us"></item>
+            <item android:id="@+id/Share"
+                android:icon="@drawable/share"
+                android:title="Share"></item>
+
+        </menu>
+    </item>
+    <item
+        android:title="App Settings">
+        <menu>
+            <item android:id="@+id/Settings"
+                android:icon="@drawable/settings"
+                android:title="Settings"></item>
+
+            <item android:id="@+id/Log_out"
+                android:icon="@drawable/logout"
+                android:title="Log Out"></item>
+        </menu>
+    </item>
+</menu>

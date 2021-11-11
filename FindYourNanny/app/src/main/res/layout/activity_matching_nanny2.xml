@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MatchingNanny2">
+  <LinearLayout
+
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="200dp"
+      android:src="@drawable/nanny"
+      android:background="@color/Peach"></ImageView>
+  <TextView
+      android:background="@color/LightBlue"
+      android:layout_gravity="center"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:text="Nanny Name"
+      android:padding="10dp"
+      android:fontFamily="@font/audiowide"
+      android:textSize="30dp"
+      android:textColor="@color/black"
+      android:gravity="center"
+
+      android:textStyle="bold"></TextView>
+    <TextView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Nanny Description"></TextView>
+  <TextView
+      android:textSize="15dp"
+      android:fontFamily="@font/audiowide"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+   android:layout_marginLeft="20dp"
+      android:layout_marginTop="10dp"
+
+     android:text="Age: "
+      android:padding="10dp"
+     ></TextView>
+    <TextView
+        android:textSize="15dp"
+        android:fontFamily="@font/audiowide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+
+        android:text="Marital Status: "
+        ></TextView>
+    <TextView
+        android:textSize="15dp"
+        android:fontFamily="@font/audiowide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+
+        android:text="Expected Salary: "
+        ></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+      <Button
+          android:id="@+id/chat"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+        android:layout_weight="1"
+          android:textSize="15dp"
+          android:layout_margin="10dp"
+          android:drawableStart="@drawable/chat"
+          android:fontFamily="@font/audiowide"
+          android:background="@drawable/rounded"
+          android:text="Chat"></Button>
+      <Button
+          android:id="@+id/book"
+          android:textSize="15dp"
+          android:layout_width="0dp"
+          android:fontFamily="@font/audiowide"
+          android:background="@drawable/rounded"
+          android:layout_margin="10dp"
+          android:drawableStart="@drawable/book"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Book"
+          android:layout_marginBottom="40dp"></Button>
+    </LinearLayout>
+  </LinearLayout>
+
+
+  </ScrollView>

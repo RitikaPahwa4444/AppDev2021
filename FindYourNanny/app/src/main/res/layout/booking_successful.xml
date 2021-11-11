@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@color/LightPeach"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/successful"></ImageView>
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Booking Successful"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/audiowide"
+        android:textSize="50dp"></TextView>
+    <Button
+        android:id="@+id/dash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Dashboard"
+        android:fontFamily="@font/audiowide"
+        android:textSize="15dp"
+        android:background="@drawable/rounded"
+        android:drawableEnd="@drawable/arrow"
+        android:layout_margin="20dp"></Button>
+
+
+</LinearLayout>

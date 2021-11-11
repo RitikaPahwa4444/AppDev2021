@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/LightBlue"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/nanny"></ImageView>
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/DarkBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/audiowide"
+            android:text="LOGIN"></TextView>
+        <androidx.cardview.widget.CardView
+            android:padding="20dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="50dp"
+            app:cardCornerRadius="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/NUsername"
+
+                    android:padding="10dp"
+                    android:background="@drawable/stroke"
+                    android:drawableStart="@drawable/user"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/audiowide"
+                    android:hint="Username/Email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></EditText>
+                <EditText
+                    android:id="@+id/NPassword"
+                    android:inputType="textPassword"
+                    android:drawableStart="@drawable/password"
+                    android:padding="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/stroke"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/audiowide"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+
+                    android:hint="Password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></EditText>
+
+
+                <Button
+                    android:id="@+id/nanny_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Login"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/audiowide"
+                    android:backgroundTint="@color/DarkBlue"
+                    android:background="@drawable/rounded"
+                    ></Button>
+                <TextView
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/DarkBlue"
+                    android:fontFamily="@font/audiowide"
+                    android:gravity="right"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="10dp"
+                    android:text="Forgot Password?">
+                </TextView>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/DarkBlue"
+            android:fontFamily="@font/audiowide"
+            android:gravity="center"
+            android:textSize="10dp"
+            android:text="Don't have an account?"></TextView>
+        <TextView
+            android:id="@+id/n_signup"
+            android:gravity="center"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textSize="15dp"
+            android:textColor="@color/DarkBlue"
+            android:textStyle="bold"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="@font/audiowide"></TextView>
+
+    </LinearLayout>
+</ScrollView>

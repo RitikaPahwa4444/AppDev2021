@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequirementsParent"
+    android:background="@color/LightBlue"
+    >
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textColor="@color/black"
+            android:fontFamily="@font/audiowide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JOB OFFERS"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="30dp"></TextView>
+        <TextView
+            android:textColor="@color/black"
+            android:fontFamily="@font/audiowide"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 job match"
+            android:layout_gravity="left"
+            android:gravity="left"
+            android:textSize="12dp"></TextView>
+        <FrameLayout
+            android:id="@+id/flmatchn"
+            android:foregroundGravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/item_color_border_ripple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/match1n"
+android:clickable="true"
+android:fontFamily="@font/audiowide"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/person"
+
+                android:drawableEnd="@drawable/arrow_black"
+                android:text="Mr Aman Sharma" />
+
+        </FrameLayout>
+
+    </LinearLayout></ScrollView>

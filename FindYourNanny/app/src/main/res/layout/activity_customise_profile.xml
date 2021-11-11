@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/LightBlue"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        >
+        <ImageView
+            android:id="@+id/avatar"
+            android:background="@drawable/circle"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/person"
+            >
+        </ImageView>
+        <Button
+            android:textSize="15dp"
+            android:fontFamily="@font/audiowide"
+            android:id="@+id/change_image"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Image"
+            android:background="@drawable/rounded"></Button>
+        <TextView
+
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/stroke"
+            android:drawableStart="@drawable/person"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="15dp"
+            android:fontFamily="@font/audiowide"
+           android:text="Nanny"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+                <EditText
+                    android:drawableEnd="@drawable/edit"
+android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:background="@drawable/stroke"
+                    android:drawableStart="@drawable/email"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/audiowide"
+                    android:hint="Email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></EditText>
+
+                <EditText
+                    android:drawableEnd="@drawable/edit"
+                    android:drawableStart="@drawable/address"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/stroke"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/audiowide"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+
+                    android:hint="Address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></EditText>
+                <EditText
+android:drawableEnd="@drawable/edit"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/stroke"
+                    android:drawableStart="@drawable/phone"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/audiowide"
+
+                    android:hint="Contact Number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></EditText>
+
+                <Button
+                    android:textSize="15dp"
+                    android:fontFamily="@font/audiowide"
+                    android:id="@+id/updateProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Update Profile"
+                    android:backgroundTint="@color/DarkBlue"
+                    android:background="@drawable/rounded"
+                    android:layout_marginBottom="40dp" ></Button>
+
+
+
+    </LinearLayout>
+</ScrollView>

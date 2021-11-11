@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="275dp"
+    android:gravity="bottom"
+    android:background="@color/LightBlue"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/person"
+        android:background="@drawable/circle"></ImageView>
+    <TextView
+        android:id="@+id/Fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Full Name"
+        android:textSize="15dp"
+        android:fontFamily="@font/audiowide"
+        android:textColor="@color/DarkBlue"
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:id="@+id/Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Username"
+        android:textSize="12dp"
+        android:fontFamily="@font/audiowide"
+        android:textColor="@color/DarkBlue"
+        android:textStyle="bold"></TextView>
+
+</LinearLayout>
